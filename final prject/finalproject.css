@@ -1,0 +1,144 @@
+/*
+*Riley Whayland 
+*January 18, 2019
+*Final Project
+
+/* The universal selector */ 
+
+*{ 
+    margin: 0;
+    padding: 0;
+
+}
+
+/* My header naming who I am doing my project about and what she is */ 
+
+
+#h1_header {
+    padding: 10px;
+    font-family: monospace, sans-serif, serif;
+}
+
+h2 {
+    padding: 10px;
+    font-family: monospace, sans-serif, serif;
+}
+
+/* My general info about my webpage */
+
+body {
+    width: 90%;
+    background-color: lightcyan;
+    margin: 15px auto;
+    border: 1px solid black;
+    font-family: monospace, sans-serif, serif;
+
+}
+
+/* My text about the header  */ 
+
+header {
+    border-bottom: 2px solid black;
+    text-align: center;
+}
+
+/* The format for my trivia column */ 
+
+#Trivia {
+    width: 20% ;
+    height:700px;
+    float: left;
+    text-align: center;
+    border-right: 2px solid black;
+    font-family: monospace, sans-serif, serif;
+    background-color: lightpink;
+}
+
+/* The headings for my trivia column */ 
+
+h4 { padding: 10px;
+    text-align: center;
+    font-family: monospace, sans-serif, serif;
+}
+
+/* My pictures in my trivia section  */ 
+#kylie { 
+    width: 210px; 
+    height: 130px;
+    border: thin solid white;
+}
+
+#portrait {
+        width:80%;
+        height: 200px;
+        border: thin solid white; }
+
+/* The text for my biography section */ 
+
+#biotext {
+        font-size: 22px;
+        text-align: justify;
+        padding-left:20px;
+}
+
+/* The text info for my main section */ 
+
+main {
+    width: 60%;
+    float: left;
+}
+
+/* My picture in my biography */ 
+
+#bio {
+    float:left;
+    margin:10px;
+    width: 200px;
+    height: 150px;
+    border: thin solid white;
+}
+
+/* The text in my accomplishment section*/
+
+#p_accomplishments { 
+        padding:10px;
+        text-align:center;
+}
+
+#Accomplishments {
+    width: 15% ;
+    height:700px;
+    float: right ;
+    border-left: 2px solid black;
+    font-family: monospace, sans-serif, serif;
+     background-color: lightpink;
+    text-align: center;
+}
+
+/* The picture in my accomplishment section */
+
+#cosmetics {
+    width: 150px;
+    height: 150px;
+    border: thin solid black;
+}
+
+/* The information for my footer section */
+footer {
+    clear:both;
+    border-top: 2px solid black;
+    font-family: monospace, sans-serif, serif;
+}
+
+h5 {
+    text-align: right;
+    font-size: 15px;
+    }
+
+/* My sources in the footer section */
+
+ul { 
+list-style-type: none;
+padding-left:10px;
+padding-bottom:10px;
+}
